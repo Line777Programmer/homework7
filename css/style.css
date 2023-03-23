@@ -1,11 +1,11 @@
-/* start of content */
+/*  content */
 .container {
     max-width: 1920px;
     width: 100%;
     margin-inline: auto;
 }
 
-/* start of header  */
+/* header  */
 
 header {
     max-width: inherit;
@@ -45,9 +45,9 @@ nav {
     color: white;
 }
 
-/* end of header  */
+/*  header  */
 
-/* start of section 1 */
+/*  section 1 */
 
 .section_1 {
     width: 100%;
@@ -122,9 +122,9 @@ h3 {
     border-radius: 50%;
 }
 
-/* end of section 1 */
+/*  section 1 */
 
-/* start of section 2 */
+/*  section 2 */
 .section {
     width: 70%;
     margin-top: 245px;
@@ -174,9 +174,9 @@ h4 {
     justify-content: space-between;
 }
 
-/* end of section 2 */
+/* section 2 */
 
-/* start of section 3 */
+/*  section 3 */
 .section_3 {
     height: 800px;
 }
@@ -232,9 +232,9 @@ h4 {
     object-position: center;
 }
 
-/* end of section 3 */
+/* section 3 */
 
-/* start of footer  */
+/*  footer  */
 footer {
     width: 100%;
     padding: 71px 545px;
@@ -274,4 +274,4 @@ button {
     border-style: none;
 }
 
-/* end of footer  */
+/*  footer  */
