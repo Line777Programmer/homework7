@@ -1,0 +1,277 @@
+/* start of content */
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/* start of header  */
+
+header {
+    max-width: inherit;
+    width: inherit;
+    background-color: #262626;
+    padding: 50px 320px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+nav {
+    width: 420px;
+}
+
+.nav_ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-family: 'Work Sans';
+    font-size: 24px;
+    color: white;
+}
+
+.nav_link1 {
+    color: #DCB47A;
+}
+
+.bag {
+    font-size: 32px;
+    color: white;
+}
+
+/* end of header  */
+
+/* start of section 1 */
+
+.section_1 {
+    width: 100%;
+    height: 1080px;
+    position: relative;
+    top: 131px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2 {
+    width: 1128px;
+    font-size: 82px;
+    font-family: 'Work Sans';
+    color: white;
+    line-height: 150%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-20% -20%);
+    text-align: center;
+
+}
+
+h3 {
+    width: 580px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 150%;
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    transform: translate(-53% -35%);
+    text-align: center;
+}
+
+.search_box {
+    padding: 0 10px;
+    width: 463px;
+    height: 71px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    position: absolute;
+    top: 61%;
+    left: 38%;
+    transform: translate(-61% -38%);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.search_box_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.lupa {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #525A55;
+    border-radius: 50%;
+}
+
+/* end of section 1 */
+
+/* start of section 2 */
+.section {
+    width: 70%;
+    margin-top: 245px;
+    margin: 245px auto;
+}
+
+h4 {
+    font-family: 'Work Sans';
+    font-size: 80px;
+}
+
+.cards {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.card {
+    padding: 20px 30px;
+    width: 390px;
+    height: 388px;
+    border: 2px solid #DCB47A;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+}
+
+.card_img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+}
+
+.card_txt {
+    font-size: 16px;
+    font-family: 'Inter';
+}
+
+.title {
+    font-family: 'Inter';
+    margin-top: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end of section 2 */
+
+/* start of section 3 */
+.section_3 {
+    height: 800px;
+}
+
+.grids {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 20px
+}
+
+.grid_1 {
+    width: 60%;
+    height: 645px;
+    position: relative;
+}
+
+.grid_img_1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border-style: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+.grid_text {
+    width: 350px;
+    font-size: 64px;
+    font-family: 'Work Sans';
+    color: #DCB47A;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50% -25%);
+    text-align: center;
+}
+
+.grid_2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    object-position: 0 ;
+    gap: 25px;
+}
+
+.grid_2_imgs {
+    width: 100%;
+    height: 310px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* end of section 3 */
+
+/* start of footer  */
+footer {
+    width: 100%;
+    padding: 71px 545px;
+    background-color: #262626;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+
+h5 {
+    color: white;
+    font-family: 'Work Sans';
+    font-size: 63px;
+}
+
+span {
+    color: #DCB47A;
+}
+
+.footer_text {
+    width: 100%;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    color: white;
+}
+
+button {
+    border-radius: 60px;
+    background-color: #DCB47A;
+    width: 205.19px;
+    height: 64.39px;
+    border-style: none;
+}
+
+/* end of footer  */
